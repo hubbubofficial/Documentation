@@ -57,7 +57,7 @@ Capturing microphone audio frequencies.
                 // negative values.
                 let frequencyArray = new Uint8Array(analyser.frequencyBinCount);
                 analyser.getByteFrequencyData(frequencyArray);
-                renderFrequency(frequencyArray);
+                // Do something with frequencyArray
             }
         }
 ```
